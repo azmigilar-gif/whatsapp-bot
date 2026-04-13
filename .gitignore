@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+npm-debug.log*
+
+# ⚠️ PENTING: auth_info TIDAK diabaikan
+# File sesi sengaja di-commit agar hosting tidak perlu scan QR ulang
+# Pastikan repo kamu PRIVATE jika menyimpan auth_info

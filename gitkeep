@@ -1,0 +1,11 @@
+Folder ini menyimpan sesi WhatsApp (auth credentials).
+
+⚠️  PENTING:
+- Folder ini sengaja di-commit ke Git agar saat deploy ke hosting
+  tidak perlu scan QR Code lagi.
+- Pastikan repository kamu di-set PRIVATE di GitHub!
+- Jangan share file di dalam folder ini ke siapapun.
+
+File yang akan muncul setelah scan QR pertama kali:
+- creds.json       → kredensial utama akun WhatsApp
+- app-state-*.json → state sinkronisasi WhatsApp
